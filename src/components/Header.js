@@ -8,13 +8,13 @@ export default function Header({ currentPage, setCurrentPage }) {
 
   const handleNavClick = (page) => {
     setCurrentPage(page);
-    setMenuOpen(false); // close menu after click on mobile
+    setMenuOpen(false); 
   };
 
   return (
     <header className="header">
       <div className="logo" onClick={() => setCurrentPage('home')}>
-        {/* Replace with your logo img if you want */}
+      
         <img src="/logo.jpg" alt="Flowers and Other Stories" />
       </div>
 
@@ -22,7 +22,7 @@ export default function Header({ currentPage, setCurrentPage }) {
         FAOS
       </h1>
 
-      {/* Hamburger button visible on mobile */}
+     
       <button
         className={`hamburger ${menuOpen ? 'open' : ''}`}
         onClick={() => setMenuOpen(!menuOpen)}
@@ -33,7 +33,7 @@ export default function Header({ currentPage, setCurrentPage }) {
         <span></span>
       </button>
 
-      {/* Navigation */}
+    
       <nav className={`nav ${menuOpen ? 'open' : ''}`}>
         {pages.map((page) => (
           <button

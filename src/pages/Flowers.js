@@ -71,7 +71,7 @@ export default function Flowers() {
         </div>
       </div>
 
-      {/* Footer */}
+    
       <footer style={{
         marginTop: '40px',
         padding: '20px',

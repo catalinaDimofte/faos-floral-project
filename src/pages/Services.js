@@ -63,7 +63,7 @@ export default function Services() {
         We have mastered the art of turning ideas into reality, ensuring each endeavor is infused with beauty, creativity, and precision — so you can trust us to get your project done right.
       </p>
 
-      {/* Image Cards Section */}
+      
       <div
         style={{
           display: 'flex',
@@ -120,7 +120,7 @@ export default function Services() {
         ))}
       </div>
 
-      {/* Table Section */}
+    
       <h2 style={{ textAlign: 'center', marginTop: '60px' }}>Service Summary</h2>
       <table style={{ width: '100%', borderCollapse: 'collapse', marginTop: '20px' }}>
         <thead>

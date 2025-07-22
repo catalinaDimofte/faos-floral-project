@@ -22,14 +22,14 @@ body {
   margin: 0 auto;
 }
 
-/* Inputs */
+
 input {
   border: 1px solid #ccc;
   border-radius: 4px;
   font-size: 1rem;
 }
 
-/* Tables */
+
 table {
   font-family: Arial, sans-serif;
   border-collapse: collapse;

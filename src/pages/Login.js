@@ -7,7 +7,7 @@ export default function Login() {
   const handleSubmit = (e) => {
     e.preventDefault();
     alert(`Logging in with email: ${email}`);
-    // Implement login logic
+    
   };
 
   return (
